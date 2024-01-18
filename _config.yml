@@ -3,6 +3,9 @@ title: Meixiu Long
 position: Ph.D. candidate
 affiliation: Sun Yat-sen University
 affiliation_link: https://www.sysu.edu.cn/
+subaffiliation: School of Computer Science and Engineering
+subaffiliation_link: https://cse.sysu.edu.cn/
+address: Guangzhou, China
 email: longmx7@mail2.sysu.edu.cn
 
 # Search Engine Optimization (SEO)
@@ -13,7 +16,7 @@ canonical: https://Longmeix.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-# google_scholar: https://scholar.google.com/
+google_scholar: https://scholar.google.com/citations?hl=en&user=S4oJa2oAAAAJ
 cv_link: assets/files/curriculum_vitae.pdf
 github_link: https://github.com/Longmeix
 # linkedin: https://www.linkedin.com/
@@ -21,7 +24,7 @@ github_link: https://github.com/Longmeix
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.png
+avatar: ./assets/img/avatar.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
