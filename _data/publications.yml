@@ -1,22 +1,24 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
-
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  - title: "DegUIL: Degree-Aware Graph Neural
+Networks for Long-Tailed User Identity Linkage"
+    authors: <strong>Meixiu Long</strong>, Siyuan Chen, Xin Du, Jiahai Wang
+    conference_short: ECML-PKDD
+    conference: The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases <strong>(ECML-PKDD)</strong>, 2023.
+    pdf: ./assets/paper/23DegUIL_paper.pdf
+    code: https://github.com/Longmeix/DegUIL
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/DegUIL_cover.PNG
     notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+
+  - title: "Locally-adaptive Mapping for Network Alignment via Meta-learning"
+    authors: <strong>Meixiu Long</strong>, Siyuan Chen, Jiahai Wang
+    conference_short: IPM
+    conference: Information Processing and Management <strong>(IPM)</strong>, 2024.
+    pdf: https://drive.google.com/file/d/1n-436vvaC2_hzcL8Rn2l7Kkt-p8eWHFy/view?usp=drive_link
+    # code: 
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    image: ./assets/img/MANA_cover.PNG
+    notes: Under review
+    
