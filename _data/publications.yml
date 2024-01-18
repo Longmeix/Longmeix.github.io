@@ -1,11 +1,11 @@
 main:
 
-  - title: "DegUIL: Degree-Aware Graph Neural
-Networks for Long-Tailed User Identity Linkage"
+  - title: "DegUIL: Degree-Aware Graph Neural Networks for Long-Tailed User Identity Linkage"
     authors: <strong>Meixiu Long</strong>, Siyuan Chen, Xin Du, Jiahai Wang
     conference_short: ECML-PKDD
     conference: The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases <strong>(ECML-PKDD)</strong>, 2023.
     pdf: ./assets/paper/23DegUIL_paper.pdf
+    slide: ./assets/slides/23DegUIL_slides.pdf
     code: https://github.com/Longmeix/DegUIL
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/DegUIL_cover.PNG
