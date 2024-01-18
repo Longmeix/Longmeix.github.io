@@ -1,22 +1,23 @@
 # Basic Information 
-title: Your Name
-position: Ph.D. Student
-affiliation: Your Affiliation
-email: yourname (at) example.edu
+title: Meixiu Long
+position: Ph.D. candidate
+affiliation: Sun Yat-sen University
+affiliation_link: https://www.sysu.edu.cn/
+email: longmx7 (at) mail2.sysu.edu.cn
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: meixiu long, long meixiu, longmeixiu, meixiulong
+description: Meixiu Long is a third-year Ph.D. candidate at Sun Yat-sen University. 
+canonical: https://Longmeix.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/
+# google_scholar: https://scholar.google.com/
 cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/
-linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
+github_link: https://github.com/Longmeix
+# linkedin: https://www.linkedin.com/
+# twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
@@ -27,6 +28,9 @@ favicon_dark: ./assets/img/favicon-dark.png
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
 enable_footnote: true
+
+# The option is used to show the last update time.
+enable_last_update: true
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme

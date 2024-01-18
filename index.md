@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a third-year Ph.D. candidate at <a href="https://www.sysu.edu.cn/"> Sun Yat-sen Univerisity</a>.
 
 ## Research Interests
 
