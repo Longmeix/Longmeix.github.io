@@ -51,8 +51,8 @@
         {% endif %}
 
         {% if site.subposition %}
-        <a href="{{ site.subposition_link }}" class="no-color" rel="noopener" target="_blank">
-          <position style="font-size:0.95rem">{{ site.subposition }}</position>
+        <a href="{{ site.subposition_link }}" rel="noopener" target="_blank">
+          <position style="font-size:1.10rem">{{ site.subposition }}</position>
         </a>
         <br>
         {% endif %}
@@ -60,6 +60,7 @@
         <a href="{{ site.subaffiliation_link }}" rel="noopener" target="_blank">
           <autocolor>{{ site.subaffiliation }},</autocolor>
         </a>
+        <br>
         {% if site.affiliation %}
         <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
@@ -73,25 +74,25 @@
         <br>
         <div class="social-icons">
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        <a style="margin: 0 6px 0 0" href="{{ site.google_scholar }}">
+          <i class="ai ai-google-scholar" style="font-size:1.3rem"></i>
         </a>  
         {% endif %}
 
         {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+        <a style="margin: 0 6px 0 0" href="{{ site.cv_link }}">
+          <i class="ai ai-cv" style="font-size:1.4rem;"></i>
         </a>
         {% endif %}
 
         {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
+        <a style="margin: 0 6px 0 0" href="{{ site.github_link }}">
           <i class="fab fa-github"></i>
         </a>
         {% endif %}
 
         {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
+        <a style="margin: 0 6px 0 0" href="{{ site.linkedin }}">
           <i class="fab fa-linkedin"></i>
         </a>
         {% endif %}
@@ -105,6 +106,8 @@
         <br>
 
       </header>
+      <div class="is-desktop"><div style="width:30px"></div></div>
+
       <section>
 
       {{ content }}
