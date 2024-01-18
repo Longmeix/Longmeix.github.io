@@ -6,9 +6,10 @@ layout: homepage
 I am a third-year Ph.D. candidate at <a href="https://www.sysu.edu.cn/"> Sun Yat-sen Univerisity</a> (SYSU), working under the mentorship of [Prof. Jiahai Wang](https://cse.sysu.edu.cn/content/2551). 
 I received my B.Eng. Degree from [Chongqing University](https://www.cqu.edu.cn/) in June 2021.
 
-My study interests include: 
-- **Deep graph learning:** graph neural network, graph structure learning, out-of-distribution generalization.
-- **Data mining:** network alignment, knowledge fusion.
+My research lies at the intersection of graph representation learning and data mining -- with a special focus on network alignment for information fusion. 
+Meanwhile, I am interested in meta-learning, out-of-distribution generalization on graphs, explainability in graph neural networks.
+
+Outside of academia, I like dancing, music and calligraphy.
 <!-- ## Research Interests
 - **Deep graph learning:** graph neural network, graph structure learning, out-of-distribution generalization.
 - **Data mining:** network alignment, knowledge fusion. -->
