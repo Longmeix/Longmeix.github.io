@@ -571,11 +571,17 @@ footer {
   header li, header ul li + li + li {
     width:33%;
   }
+  header li, header ul {
+    width: 100%;
+    font-size: 1.0rem;
+    line-height: 1;
+  }
+
 
   .image.avatar img {
-      border-radius: 100%;
-      width: 95px;
-      padding:20px;
+      border-radius: 10%;
+      width: 90%;
+      // padding:20px;
   }
   #head1o2 {
     visibility: hidden;

@@ -67,56 +67,64 @@
         <br>
         {% endif %}
 
-        {% if site.email %}
+        <!-- {% if site.email %}
         <email>{{ site.email }}</email>
-        {% endif %}
+        {% endif %} -->
 
         <br>
         <br>
         <div class="social-icons">
-        <li>
-          <i class="fa fa-map-marker" aria-hidden="true" style="font-size:1.10rem"></i> 
-           <!-- Guangzhou, China -->
-           {{site.address}}
-        </li>
-        {% if site.google_scholar %}
-        <li>
-        <a href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.10rem"></i>
-           Google Scholar
-        </a>  
-        </li>
-        {% endif %}
+        <ul class="no-marker">
+          <li>
+            <i class="fa fa-map-marker" aria-hidden="true"></i> 
+            <!-- Guangzhou, China -->
+            {{ site.address }}
+          </li>
 
-        {% if site.cv_link %}
-        <li>
-        <a href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.10rem;"></i>
-           CV (English)
-        </a>
-        </li>
-        {% endif %}
+          {% if site.github_link %}
+          <li>
+          <a href="{{ site.github_link }}">
+          <i class="fab fa-github"></i>
+            Github
+          </a>
+          </li>
+          {% endif %}
 
-        {% if site.github_link %}
-        <li>
-        <a href="{{ site.github_link }}">
-         <i class="fab fa-github" style="font-size:1.10rem"></i>
-           Github
-        </a>
-        </li>
-        {% endif %}
+          {% if site.google_scholar %}
+          <li>
+          <a href="{{ site.google_scholar }}">
+            <i class="ai ai-google-scholar" ></i>
+            Google Scholar
+          </a>  
+          </li>
+          {% endif %}
 
-        {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        {% endif %}
+          {% if site.cv_link %}
+          <li>
+          <a href="{{ site.cv_link }}">
+            <!-- <i class="ai ai-cv" ></i> -->
+            [CV (English)]
+          </a>
+          </li>
+          {% endif %}
+          
+          {% if site.email %}
+            {{ site.email }}
+          {% endif %}
+          
 
-        {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-twitter"></i>
-        </a>
-        {% endif %}
+          {% if site.linkedin %}
+          <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          {% endif %}
+
+          {% if site.twitter %}
+          <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
+            <i class="fab fa-twitter"></i>
+          </a>
+          {% endif %}
+        </ul>
         </div>
         <br>
 
