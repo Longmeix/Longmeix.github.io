@@ -450,7 +450,7 @@ header ul a strong {
 }
 
 section {
-  width:700;
+  width:660;
   float:right;
   padding-top:4.0em;
   padding-bottom:50px;
@@ -579,6 +579,9 @@ footer {
     line-height: 1;
   }
 
+  ul.no-marker {
+    list-style-type: none;
+  }
 
   .image.avatar img {
       border-radius: 10%;
