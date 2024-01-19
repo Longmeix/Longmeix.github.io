@@ -17,6 +17,7 @@
     <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.css">
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
@@ -56,7 +57,7 @@
         <br>
         {% endif %}
         {% if site.subaffiliation %}
-        <a href="{{ site.subaffiliation_link }}" rel="noopener" target="_blank" style="font-size:1.0rem">
+        <a href="{{ site.subaffiliation_link }}" rel="noopener" target="_blank" style="font-size:1.10rem">
           <autocolor>{{ site.subaffiliation }},</autocolor>
         </a>
         <br>
@@ -67,9 +68,11 @@
         <br>
         {% endif %}
 
-        {% if site.email %}
+        <!-- {% if site.email %}
         <email>{{ site.email }}</email>
-        {% endif %}
+        {% endif %} -->
+        <!-- <i class="fa-solid fa-envelope"></i> -->
+        <autocolor>{{ site.email }}</autocolor>
 
         <br>
         <br>
@@ -113,7 +116,8 @@
           <li>
           <a href="{{ site.cv_link }}">
             <!-- <i class="ai ai-cv" ></i> -->
-            [CV (English)]
+            <i class="fa-solid fa-file"></i>
+            CV (English)
           </a>
           </li>
           {% endif %}
