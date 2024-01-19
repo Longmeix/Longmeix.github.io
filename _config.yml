@@ -6,7 +6,7 @@ affiliation_link: https://www.sysu.edu.cn/
 subaffiliation: School of Computer Science and Engineering
 subaffiliation_link: https://cse.sysu.edu.cn/
 address: Guangzhou, China
-email: longmx7@mail2.sysu.edu.cn
+email: longmx7 (at) mail2.sysu.edu.cn
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -37,7 +37,7 @@ enable_last_update: true
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
-auto_dark_mode: true
+# auto_dark_mode: true
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
