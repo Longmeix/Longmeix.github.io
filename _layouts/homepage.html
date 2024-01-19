@@ -38,7 +38,6 @@
   <body>
     <div class="wrapper">
       <header>
-        
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
@@ -57,13 +56,14 @@
         <br>
         {% endif %}
         {% if site.subaffiliation %}
-        <a href="{{ site.subaffiliation_link }}" rel="noopener" target="_blank">
+        <a href="{{ site.subaffiliation_link }}" rel="noopener" target="_blank" style="font-size:1.10rem">
           <autocolor>{{ site.subaffiliation }},</autocolor>
         </a>
         <br>
         {% endif %}
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        <a href="{{ site.affiliation_link }}" rel="noopener" style="font-size:1.10rem">
+          <autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
         {% endif %}
 
@@ -75,15 +75,15 @@
         <br>
         <div class="social-icons">
         <li>
-          <i class="fa fa-map-marker" aria-hidden="true"></i> 
+          <i class="fa fa-map-marker" aria-hidden="true" style="font-size:1.10rem"></i> 
            <!-- Guangzhou, China -->
            {{site.address}}
         </li>
         {% if site.google_scholar %}
         <li>
         <a href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.3rem"></i>
-          " Google Scholar"
+          <i class="ai ai-google-scholar" style="font-size:1.10rem"></i>
+           Google Scholar
         </a>  
         </li>
         {% endif %}
@@ -91,8 +91,8 @@
         {% if site.cv_link %}
         <li>
         <a href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.4rem;"></i>
-          " CV (English)"
+          <i class="ai ai-cv" style="font-size:1.10rem;"></i>
+           CV (English)
         </a>
         </li>
         {% endif %}
@@ -100,8 +100,8 @@
         {% if site.github_link %}
         <li>
         <a href="{{ site.github_link }}">
-         <i class="fab fa-github"></i>
-          " Github"
+         <i class="fab fa-github" style="font-size:1.10rem"></i>
+           Github
         </a>
         </li>
         {% endif %}
