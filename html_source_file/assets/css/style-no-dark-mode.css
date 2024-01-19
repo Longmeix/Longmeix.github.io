@@ -8,7 +8,7 @@ body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif
 
 .social-icons a:last-child { margin-right: 0; }
 
-.social-icons a:hover { background-color: white; color: black; transform: scale(1.2); }
+.social-icons a:hover { background-color: white; color: black; transform: scale(1.1); }
 
 /*
 .social-icons a:after { content: ''; display: block; margin: 0px; height: 1px; width: 0px; background: transparent; transition: width .5s ease, background-color .5s ease; } .social-icons a:hover:after { width: 100%; background: #337ab7; } */
