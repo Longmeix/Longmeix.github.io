@@ -20,9 +20,9 @@
   color:#043361!important;
   border-radius:100%;
   text-align:left;
-  font-size:1.15rem;
+  font-size:1.0rem;
   line-height:2.0rem;
-  margin-right:1rem;
+  margin-left:2.0rem;
   box-shadow: none;}
 
 @media (prefers-color-scheme: dark) { .social-icons a {color: #3eb7f0 !important; }}
@@ -576,11 +576,9 @@ footer {
   header li {
     width: 100%;
     font-size: 1.0rem;
-    line-height: 1;
-  }
-
-  ul.no-marker {
+    line-height: 1.5;
     list-style-type: none;
+    margin-bottom: 0.5em;
   }
 
   .image.avatar img {

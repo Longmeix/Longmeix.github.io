@@ -51,12 +51,12 @@
 
         {% if site.subposition %}
         <a href="{{ site.subposition_link }}" rel="noopener" target="_blank">
-          <position style="font-size:1.10rem">{{ site.subposition }}</position>
+          <position style="font-size:1.0rem">{{ site.subposition }}</position>
         </a>
         <br>
         {% endif %}
         {% if site.subaffiliation %}
-        <a href="{{ site.subaffiliation_link }}" rel="noopener" target="_blank" style="font-size:1.10rem">
+        <a href="{{ site.subaffiliation_link }}" rel="noopener" target="_blank" style="font-size:1.0rem">
           <autocolor>{{ site.subaffiliation }},</autocolor>
         </a>
         <br>
@@ -67,19 +67,20 @@
         <br>
         {% endif %}
 
-        <!-- {% if site.email %}
+        {% if site.email %}
         <email>{{ site.email }}</email>
-        {% endif %} -->
+        {% endif %}
 
         <br>
         <br>
-        <div class="social-icons">
-        <ul class="no-marker" style="margin-bottom: 1em; margin-top: 16px; font-size: 1.0rem; line-height: 1; padding: 0;"  >
+        <div class="social-icons" style="line-height:2.0rem; list-style-type: none; font-size: 1.10rem;">
           <li>
+            <a>
             <i class="fa fa-map-marker" aria-hidden="true"></i> 
             <!-- Guangzhou, China -->
             {{ site.address }}
-          </li>
+            </a>
+          </li> 
 
           {% if site.github_link %}
           <li>
@@ -99,6 +100,15 @@
           </li>
           {% endif %}
 
+          {% if site.zhihu_link %}
+          <li>
+          <a href="{{ site.zhihu_link }}">
+            <i class="fa-brands fa-zhihu" ></i>
+            Zhihu
+          </a>  
+          </li>
+          {% endif %}
+
           {% if site.cv_link %}
           <li>
           <a href="{{ site.cv_link }}">
@@ -106,10 +116,6 @@
             [CV (English)]
           </a>
           </li>
-          {% endif %}
-          
-          {% if site.email %}
-            {{ site.email }}
           {% endif %}
           
 
@@ -124,7 +130,6 @@
             <i class="fab fa-twitter"></i>
           </a>
           {% endif %}
-        </ul>
         </div>
         <br>
 
