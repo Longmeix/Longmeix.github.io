@@ -384,22 +384,22 @@ header {
 
 
 
-header ul {
-  list-style:none;
-  height:40px;
-  padding:0;
-  background: #f4f4f4;
-  border-radius:5px;
-  border:1px solid #e0e0e0;
-  width:270px;
-}
+// header ul {
+//   list-style:none;
+//   height:40px;
+//   padding:0;
+//   background: #f4f4f4;
+//   border-radius:5px;
+//   border:1px solid #e0e0e0;
+//   width:270px;
+// }
 
-header li {
-  width:89px;
-  float:left;
-  border-right:1px solid #e0e0e0;
-  height:40px;
-}
+// header li {
+//   width:89px;
+//   float:left;
+//   border-right:1px solid #e0e0e0;
+//   height:40px;
+// }
 
 header li:first-child a {
   border-radius:5px 0 0 5px;
@@ -568,10 +568,12 @@ footer {
     width:99%;
   }
 
-  header li, header ul li + li + li {
-    width:33%;
-  }
-  header li, header ul {
+  // header li, header ul li + li + li {
+  //   width:33%;
+  // }
+
+
+  header li {
     width: 100%;
     font-size: 1.0rem;
     line-height: 1;
