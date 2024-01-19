@@ -61,6 +61,7 @@
           <autocolor>{{ site.subaffiliation }},</autocolor>
         </a>
         <br>
+        {% endif %}
         {% if site.affiliation %}
         <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
@@ -73,12 +74,12 @@
         <br>
         <br>
         <div class="social-icons">
-        {% if site.google_scholar %}
         <li>
           <i class="fa fa-map-marker" aria-hidden="true"></i> 
            <!-- Guangzhou, China -->
            {{site.address}}
-          </li>
+        </li>
+        {% if site.google_scholar %}
         <li>
         <a href="{{ site.google_scholar }}">
           <i class="ai ai-google-scholar" style="font-size:1.3rem"></i>
