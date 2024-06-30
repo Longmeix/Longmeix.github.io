@@ -9,16 +9,16 @@ main:
     code: https://github.com/Longmeix/DegUIL
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/DegUIL_cover.PNG
-    notes: Oral Presentation
+    notes: CCF B, Oral Presentation
 
   - title: "Locally-adaptive Mapping for Network Alignment via Meta-learning"
     authors: <strong>Meixiu Long</strong>, Siyuan Chen, Jiahai Wang
     conference_short: IPM
     conference: Information Processing and Management <strong>(IPM)</strong>, 2024.
-    pdf: https://drive.google.com/file/d/1n-436vvaC2_hzcL8Rn2l7Kkt-p8eWHFy/view?usp=drive_link
-    # code: 
+    pdf: https://www.sciencedirect.com/science/article/pii/S0306457324001766
+    code: https://github.com/Longmeix/MANA
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     image: ./assets/img/MANA_cover.PNG
-    notes: Under review
+    notes: SCI Q1, CCF B
     
